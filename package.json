@@ -1,1 +1,13 @@
 https://github.com/velvetmice/rebrandmagic-pdf-service/new/main?filename=package.json
+{
+  "name": "rebrandmagic-pdf-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node server.mjs" },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "fastify": "^4.28.1",
+    "jszip": "^3.10.1"
+  }
+}
